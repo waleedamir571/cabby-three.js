@@ -60,7 +60,7 @@ async function setupViewer() {
   });
 
   viewer.renderer.refreshPipeline();
-  const model = await manager.addFromPath("./assets/scene (1).glb");
+  const model = await manager.addFromPath("./assets/scene (5).glb");
   const object3d = model[0].modelObject;
   const modelPosition = object3d.position;
   const modelRotation = object3d.rotation;
